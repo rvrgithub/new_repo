@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+nav{
+    display: flex;
+    padding: 10px 50px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -
+    8px;
+width: 92%;
+height: 40px;
+justify-content: space-between;
+}
+a{
+    font-size: 30px;
+    color: crimson;
+    text-decoration: none;
+}
+a:hover{
+    font-size: 30px;
+    color: #493FE6;
+    text-decoration: none;
+}

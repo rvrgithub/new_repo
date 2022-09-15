@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("https://image.shutterstock.com/image-photo/light-bulbs-on-dark-blue-260nw-295237832.jpg");
+/* width: 100%; */
+height: auto;
+background-repeat: no-repeat;
+background-size: cover;
+        }
+        button{
+            width: 300px;
+            height: 50px;
+            margin-left: 20px;
+            border-radius: 10px;
+            font-size: 25px;
+            color: crimson;
+            cursor: pointer;
+        }
+        #fix{
+            margin-left: 25%;
+            margin-top: 25%;
+        }
+        button:hover{
+           background-color: rgb(224, 41, 78);
+           color: white;
+        }
+    </style>
+</head>
+<body>
+   <div id="fix"> <button id="admin">Admin</button>
+    <button id="user">User</button></div>
+</body>
+</html>
+<script>
+let admin = document.querySelector("#admin")
+admin.addEventListener("click",()=>{
+    window.location.href="./Admin Section/html/admin.html"
+})
+let user = document.querySelector("#user")
+user.addEventListener("click",()=>{
+    window.location.href="./User Section/Html/user.html"
+})
+</script>
